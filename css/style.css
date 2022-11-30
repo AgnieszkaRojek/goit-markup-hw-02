@@ -32,7 +32,7 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
-h1{
+.main-title{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
@@ -60,7 +60,7 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 /*Nagłówki ze strony głównej*/
-h3{
+.article-title{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -132,19 +132,19 @@ line-height: 24px;
 
 letter-spacing: 0.03em;
 }
-h4{
+.project-title{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
-/* identical to box height, or 200% */
+
 
 letter-spacing: 0.06em;
 
 color: #212121;
 }
-.project-title{
+.project-subtitle{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
