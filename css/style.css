@@ -1,169 +1,174 @@
-body{
-font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 /*Nagłowek i Stopka*/
-.logo{
-font-family: 'Raleway';
-font-size: 26px;
-line-height: 1,19;
-letter-spacing: 0.03em;
-color:#000000;
-color: #2196F3;
+.logo {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    color: #2196f3;
 }
-.logo-endpartoflogo{
-color:#000000;
+.logo-endpartoflogo {
+    color: #000000;
 }
-nav a, .contact-links{
-    text-decoration:none;
+nav a,
+.contact-links {
+    text-decoration: none;
 }
 
-.nav-link{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1,14/*16px*/;
-letter-spacing: 0.02em;
-color: #212121;
+.nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14 /*16px*/;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
-.logo:hover, .nav-link:hover, .contact-links:hover {
+.logo:hover,
+.nav-link:hover,
+.contact-links:hover {
     text-decoration: underline;
 }
-.contact-links{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1,14/*16px*/;
-letter-spacing: 0.02em;
-color: #757575;
+.contact-links {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14 /*16px*/;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 .contact-links:active {
-    color:#2196F3
+    color: #2196f3;
 }
-    /*Sekcja Menu*/
-button:hover{
-    color:#2196F3;
+/*Sekcja Menu*/
+button:hover {
+    color: #2196f3;
     cursor: pointer;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 /*Usunięcie wypunktowania ul dla NAV i MENU*/
-ul{
+ul {
     list-style-type: none;
 }
-button{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1,87/*30px*/;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1, 87 /*30px*/;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
-button:focus{
-color:violet
+button:focus {
+    color: deeppink;
 }
-button:active{color: green}
+button:active {
+    color: green;
+}
 
 /* MAIN PAGE -Studio EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
-.main-title{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1,36/*60px*/;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+.main-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 36 /*60px*/;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
-.main-page-button{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1,87/*30px*/;
-letter-spacing: 0.06em;
+.main-page-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1, 87 /*30px*/;
+    letter-spacing: 0.06em;
 }
 
-h2{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1,16/*42px*/;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 16 /*42px*/;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 /*Nagłówki ze strony głównej LOREM*/
-.article-title{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1,14/*16px*/;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
+.article-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14 /*16px*/;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
 }
 /*opisy artykułów Studio*/
-.article{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1,71/*24px*/;
-letter-spacing: 0.03em;
-color: #757575;
+.article {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 71 /*24px*/;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 /*Nasz Zespół Studio*/
-.people-names{
- font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1,18/*19px*/;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+.people-names {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 18 /*19px*/;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
-.job-name{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1,18/*19px*/;
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575;
+.job-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1, 18 /*19px*/;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
-address{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1,71 /*24px*/;
-letter-spacing: 0.03em;
+address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 71 /*24px*/;
+    letter-spacing: 0.03em;
 }
 /*Portofolio -sekcja Projekty*/
-.project-title{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 2 /*36px*/;
-letter-spacing: 0.06em;
-color: #212121;
+.project-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2 /*36px*/;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
-.project-subtitle{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1,87/*30px*/;
-letter-spacing: 0.03em;
-color: #757575;
+.project-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1, 87 /*30px*/;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
