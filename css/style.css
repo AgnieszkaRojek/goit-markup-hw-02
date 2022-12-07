@@ -1,162 +1,158 @@
+:root {
+    --primary-color: #2196f3;
+    --black: #000;
+    --white: #fff;
+    --dark-background: #2f303a;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 /*Nagłowek i Stopka*/
 .logo {
     font-family: 'Raleway';
     font-size: 26px;
-    line-height: 1, 19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #000000;
-    color: #2196f3;
+    color: var(--primary-color);
+    text-decoration: none;
 }
-.logo-endpartoflogo {
-    color: #000000;
+
+.logo-black {
+    color: var(--black);
 }
-nav a,
+
+.logo-white {
+    color: var(--white);
+}
+
 .contact-links {
     text-decoration: none;
 }
 
 .nav-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1, 14 /*16px*/;
+    line-height: 1.14 /*16px*/;
     letter-spacing: 0.02em;
     color: #212121;
+    text-decoration: none;
 }
-.logo:hover,
+
 .nav-link:hover,
-.contact-links:hover {
-    text-decoration: underline;
+.nav-link:focus {
+    color: var(--primary-color);
 }
+
 .contact-links {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1, 14 /*16px*/;
+    line-height: 1.14 /*16px*/;
     letter-spacing: 0.02em;
     color: #757575;
 }
-.contact-links:active {
+.contact-links:hover,
+.contact-links:focus {
     color: #2196f3;
-}
-/*Sekcja Menu*/
-button:hover {
-    color: #2196f3;
-    cursor: pointer;
-    text-decoration: underline;
-}
-/*Usunięcie wypunktowania ul dla NAV i MENU*/
-ul {
-    list-style-type: none;
-}
-button {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1, 87 /*30px*/;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
-button:focus {
-    color: deeppink;
-}
-button:active {
-    color: green;
 }
 
 /* MAIN PAGE -Studio EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
-.main-title {
-    font-family: 'Roboto';
-    font-style: normal;
+.dark-bg {
+    background-color: var(--dark-background);
+}
+
+.order h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1, 36 /*60px*/;
+    line-height: 1.36 /*60px*/;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: var(--white);
 }
-.main-page-button {
-    font-family: 'Roboto';
-    font-style: normal;
+
+.order button {
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 50px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1, 87 /*30px*/;
+    line-height: 1.87;
     letter-spacing: 0.06em;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    outline: none;
 }
 
-h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1, 16 /*42px*/;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-
-/*Nagłówki ze strony głównej LOREM*/
-.article-title {
-    font-family: 'Roboto';
-    font-style: normal;
+.articles > li > h3 {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1, 14 /*16px*/;
+    line-height: 1.14 /*16px*/;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
-/*opisy artykułów Studio*/
-.article {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+
+.articles > li > p {
     font-size: 14px;
-    line-height: 1, 71 /*24px*/;
+    line-height: 1.71 /*24px*/;
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+.jobs h2,
+.our-team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
 /*Nasz Zespół Studio*/
 .people-names {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1, 18 /*19px*/;
+    line-height: 1.18 /*19px*/;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .job-name {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1, 18 /*19px*/;
+    line-height: 1.18 /*19px*/;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
-address {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1, 71 /*24px*/;
-    letter-spacing: 0.03em;
-}
+
 /*Portofolio -sekcja Projekty*/
+.filters button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62px;
+    letter-spacing: 0.03em;
+    width: 93px;
+    height: 38px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.filters button:hover,
+.filters button:focus {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
 .project-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2 /*36px*/;
@@ -164,11 +160,38 @@ address {
     color: #212121;
 }
 .project-subtitle {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1, 87 /*30px*/;
+    line-height: 1.87 /*30px*/;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+/* FOOTER */
+
+.address-wrapper {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71 /*24px*/;
+    letter-spacing: 0.03em;
+}
+
+.address-wrapper > span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white);
+}
+
+.address-wrapper > a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-wrapper > a:hover,
+.address-wrapper > a:focus {
+    color: var(--primary-color);
 }

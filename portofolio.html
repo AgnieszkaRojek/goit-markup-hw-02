@@ -12,26 +12,24 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
         />
-        <style>
-            body {
-                font-family: 'Roboto', sans-serif;
-            }
-        </style>
     </head>
     <body>
         <!--Nagłówek-->
         <header>
             <nav>
-                <a class="logo" href="index.html"
-                    ><span>Web</span
-                    ><span class="logo-endpartoflogo">Studio</span></a
-                >
+                <a class="logo" href="#">
+                    <span>Web</span><span class="logo-black">Studio</span>
+                </a>
                 <ul>
-                    <li><a class="nav-link" href="#">Agencja</a></li>
+                    <li>
+                        <a class="nav-link" href="#">Agencja</a>
+                    </li>
                     <li>
                         <a class="nav-link" href="portofolio.html">Portfolio</a>
                     </li>
-                    <li><a class="nav-link" href="#">Kontakty</a></li>
+                    <li>
+                        <a class="nav-link" href="#">Kontakty</a>
+                    </li>
                 </ul>
             </nav>
             <ul>
@@ -49,19 +47,18 @@
         </header>
         <main>
             <!--Menu-->
-            <section>
-                <nav>
-                    <ul class>
-                        <li><button type="button">Wszystkie</button></li>
-                        <li><button type="button">Strony</button></li>
-                        <li><button type="button">Aplikacje</button></li>
-                        <li><button type="button">Dizajn</button></li>
-                    </ul>
-                </nav>
-            </section>
-            <!--Projekty-->
-            <section>
-                <ul>
+            <div>
+                <ul class="filters">
+                    <li><button type="button">Wszystkie</button></li>
+                    <li><button type="button">Strony</button></li>
+                    <li><button type="button">Aplikacje</button></li>
+                    <li><button type="button">Dizajn</button></li>
+                    <li><button type="button">Marketing</button></li>
+                </ul>
+
+                <!--Projekty-->
+
+                <ul class="projects">
                     <li>
                         <figure>
                             <img
@@ -71,7 +68,7 @@
                                 height="294"
                             />
                             <figcaption>
-                                <h4 class="project-title">Technocrack</h4>
+                                <span class="project-title">Technocrack</span>
                                 <span class="project-subtitle"
                                     >Strona internetowa</span
                                 >
@@ -87,9 +84,9 @@
                                 height="294"
                             />
                             <figcaption>
-                                <h4 class="project-title">
+                                <span class="project-title">
                                     Grafika New Orlean vs Golden Star
-                                </h4>
+                                </span>
                                 <span class="project-subtitle">Dizajn</span>
                             </figcaption>
                         </figure>
@@ -103,9 +100,9 @@
                                 height="294"
                             />
                             <figcaption>
-                                <h4 class="project-title">
+                                <span class="project-title">
                                     Restauracja Seafood
-                                </h4>
+                                </span>
                                 <span class="project-subtitle">Aplikacja</span>
                             </figcaption>
                         </figure>
@@ -119,7 +116,7 @@
                                 height="294"
                             />
                             <figcaption>
-                                <h4 class="project-title">Projekt Prime</h4>
+                                <span class="project-title">Projekt Prime</span>
                                 <span class="project-subtitle">Marketing</span>
                             </figcaption>
                         </figure>
@@ -133,7 +130,7 @@
                                 height="294"
                             />
                             <figcaption>
-                                <h4 class="project-title">Projekt Boxes</h4>
+                                <span class="project-title">Projekt Boxes</span>
                                 <span class="project-subtitle">Aplikacja</span>
                             </figcaption>
                         </figure>
@@ -147,9 +144,9 @@
                                 height="294"
                             />
                             <figcaption>
-                                <h4 class="project-title">
+                                <span class="project-title">
                                     Inspiration has no Borders
-                                </h4>
+                                </span>
                                 <span class="project-subtitle"
                                     >Strona internetowa</span
                                 >
@@ -165,9 +162,9 @@
                                 height="294"
                             />
                             <figcaption>
-                                <h4 class="project-title">
+                                <span class="project-title">
                                     Magazyn Limited Edition
-                                </h4>
+                                </span>
                                 <span class="project-subtitle">Dizajn</span>
                             </figcaption>
                         </figure>
@@ -181,7 +178,7 @@
                                 height="294"
                             />
                             <figcaption>
-                                <h4 class="project-title">Projekt LAB</h4>
+                                <span class="project-title">Projekt LAB</span>
                                 <span class="project-subtitle">Marketing</span>
                             </figcaption>
                         </figure>
@@ -195,23 +192,24 @@
                                 height="294"
                             />
                             <figcaption>
-                                <h4 class="project-title">Growing Business</h4>
+                                <span class="project-title"
+                                    >Growing Business</span
+                                >
                                 <span class="project-subtitle">Aplikacja</span>
                             </figcaption>
                         </figure>
                     </li>
                 </ul>
-            </section>
+            </div>
         </main>
         <!--Stopka-->
-        <footer>
-            <a class="logo" href="index.html"
-                ><span>Web</span
-                ><span class="logo-endpartoflogo">Studio</span></a
-            >
-            <address>
-                <a href="#"> Warszawa, Aleje Jerozolimskie 21 </a><br />
-                <a href="maito:info@example.com"> info@example.com </a><br />
+        <footer class="dark-bg">
+            <a class="logo" href="#">
+                <span>Web</span><span class="logo-white">Studio</span>
+            </a>
+            <address class="address-wrapper">
+                <span> Warszawa, Aleje Jerozolimskie 21</span>
+                <a href="maito:info@example.com"> info@example.com </a>
                 <a href="tel:+48111111111"> +48 111 111 111</a>
             </address>
         </footer>
