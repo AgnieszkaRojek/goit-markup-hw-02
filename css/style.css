@@ -1,8 +1,13 @@
 :root {
     --primary-color: #2196f3;
-    --black: #000;
-    --white: #fff;
+    --black: #000000;
+    --white: #FFFFFF;
+    --light-black: #212121;
     --dark-background: #2f303a;
+    --grey: #757575;
+    --light-grey: rgba(255, 255, 255, 0.6 );
+    --button-poftofolio-background: #F5F4FA;
+
 }
 
 body {
@@ -36,7 +41,7 @@ body {
     font-size: 14px;
     line-height: 1.14 /*16px*/;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--light-black);
     text-decoration: none;
 }
 
@@ -50,11 +55,11 @@ body {
     font-size: 14px;
     line-height: 1.14 /*16px*/;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--grey);
 }
 .contact-links:hover,
 .contact-links:focus {
-    color: #2196f3;
+    color: var(--primary-color);
 }
 
 /* MAIN PAGE -Studio EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
@@ -93,14 +98,14 @@ body {
     line-height: 1.14 /*16px*/;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--black);
 }
 
 .articles > li > p {
     font-size: 14px;
     line-height: 1.71 /*24px*/;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey);
 }
 
 .jobs h2,
@@ -110,24 +115,25 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--light-black);
 }
 
 /*Nasz Zespół Studio*/
-.people-names {
+.team-member {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18 /*19px*/;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--light-black)
+
 }
-.job-name {
+.job {
     font-size: 16px;
     line-height: 1.18 /*19px*/;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey);
 }
 
 /*Portofolio -sekcja Projekty*/
@@ -139,7 +145,7 @@ body {
     letter-spacing: 0.03em;
     width: 93px;
     height: 38px;
-    background: #f5f4fa;
+    background: var(--button-poftofolio-background);
     border-radius: 4px;
     border: none;
     outline: none;
@@ -157,13 +163,13 @@ body {
     font-size: 18px;
     line-height: 2 /*36px*/;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--light-black)
 }
 .project-subtitle {
     font-size: 16px;
     line-height: 1.87 /*30px*/;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey)
 }
 
 /* FOOTER */
@@ -188,7 +194,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--light-grey);
 }
 
 .address-wrapper > a:hover,
